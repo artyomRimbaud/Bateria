@@ -48,4 +48,3 @@ import math
 def main5():
     cateto1, cateto2 = map(float, input("Ingresa las longitudes de los catetos separadas por espacio: ").split())
     print(f"La hipotenusa es: {math.sqrt(cateto1**2 + cateto2**2)}.")
-
